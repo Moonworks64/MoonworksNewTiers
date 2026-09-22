@@ -94,7 +94,7 @@ Currently it adds:
     - They also all use template icons.
 
 There's 336 new upgrades (normal and heavenly), with a total word count of 17625!   
-There's 627 new achievements (normal and shadow), with a total word count of 672!   
+There's 627 new achievements (normal and shadow), with a total word count of 3363!   
 Yes they were all hand-written, it was very tiring. But fun!    
 
 Hope you enjoy :D   
