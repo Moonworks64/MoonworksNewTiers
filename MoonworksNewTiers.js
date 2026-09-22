@@ -251,7 +251,7 @@ mod = {
         };
 
         // Go through all of the mod's achievements + upgrades and see if they're obtainable or not
-        mod.updateAchievAndUpgradeShadow = function(overrides) {
+        mod.updateAchievShadow = function(overrides) {
             overrides = overrides || {};
 
             for (var i in mod.limits) {
@@ -2014,7 +2014,7 @@ mod = {
 
         LocalizeUpgradesAndAchievs();
 
-        mod.updateAchievAndUpgradeShadow();
+        mod.updateAchievShadow();
 
         setTimeout(function(){
             Game.upgradesToRebuild=1;
