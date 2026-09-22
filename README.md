@@ -19,9 +19,9 @@ Bugs may exist, make a backup of your save before loading.
 
 ## How to add to your own content mods
 
-MNT is intended to act as a free-to-use mod that can be coupled with anyone's own content mod so they don't have to spend time making a bunch of new tiers themselves. All that I ask is credit somewhere visible!
+MNT is intended to act as a free-to-use mod that can be coupled with anyone's own content mod so they don't have to spend time making a bunch of new tiers themselves.
 
-Put this block of code after your mod has loaded all the new achievements and upgrades it adds. MNT will automatically calculate which total upgrades / total heavenly upgrades achievements are impossible to obtain and make them shadow if they aren't.
+Put this block of code after your mod has loaded all the new achievements and upgrades it adds. MNT will automatically calculate which total upgrades / total heavenly upgrades achievements are obtainable and make them shadow if they aren't.
 
 > // Load Moonwork's New Tiers      
 > if (!Game.mods['MoonworksNewTiers']) {    
@@ -79,17 +79,17 @@ Currently it adds:
 - **4 new total heavenly upgrades achievements**
     - Any that aren't obtainable will be made into shadow achievements on mod load.
 - **14 new number of everything achievements**
-- **14 new builder biscuits**
+- **14 new builder biscuit upgrades**
     - All use template icons.
 - **21 new ascended with cookies baked achievements**
     - Some may be impossible or ludicrous to obtain. Sorry!
     - They also all use template icons.
 
-There's 336 new upgrades (normal and heavenly), with a total word count of 17625!
-There's 627 new achievements (normal and shadow), with a total word count of 672!
-Yes they were all hand-written, it was very tiring. But fun!
+There's 336 new upgrades (normal and heavenly), with a total word count of 17625!   
+There's 627 new achievements (normal and shadow), with a total word count of 672!   
+Yes they were all hand-written, it was very tiring. But fun!    
 
-Hope you enjoy :D
+Hope you enjoy :D   
 
 ## Limitations
 
@@ -97,10 +97,10 @@ MNT may break with certain other mods active. Particularly with ones that use fu
 
 The game can have lag spikes when looking in the stats menu as the number of upgrades / achievements takes a while to re-render.
 
-I like writing and many upgrades have paragraphs of text within them. I do not apologize.
-I like writing but I may not be good at it either, expect some typos, improper grammar, run-on sentences, and confusing concepts to understand. I do apologize for this.
+I like writing and many upgrades have paragraphs of text within them. I do not apologize.   
+I like writing but I may not be good at it either, expect some typos, improper grammar, run-on sentences, and confusing concepts to understand. I do apologize for this.    
 
-Any sprite that required a completely new sprite just uses a template as I don't have the time nor pixel art skill to make them in a reasonable manner.
+Any sprite that required a completely new sprite just uses a template as I don't have the time nor pixel art skill to make them in a reasonable manner. 
 Milk icons / textures all use the plain icon assets for the same reason.
 
-If you have any issues, concerns or questions, please do ask me! I'm in the Cookie Clicker discord server which can be found in the Cookie Clicker top ribbon.
+If you have any issues, concerns or questions, please do ask me! I'm in the Cookie Clicker discord server which can be found in the Cookie Clicker top ribbon.  
