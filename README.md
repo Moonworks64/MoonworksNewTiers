@@ -7,11 +7,15 @@ This is a mod for [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/) wh
 Intended to be either loaded standalone or used for any content mods someone may make.
 
 ### Disclaimers:
-While the new tiers do have new recoloured sprites, anything that requires an entirely new sprite just uses a template one as I only have so much time and little pixel-art ability.
+While the new tiers do have new recoloured sprites, anything that requires an entirely new sprite just uses a template one as I only have so much time and little pixel art ability.
 
 While some thought was put into whether or not achievements / upgrades were obtainable, do not expect to be able to 100% CC if you load this mod as it literally just adds new tiers and I'm not sure if the upgrades + milk from that is enough for all of them to be obtained in a reasonable manner. You have been warned!
 
 This mod also does make one change to existing Cookie Clicker, that being that many cursor upgrades are nerfed to make up for the new upgrades / milk gain and to prevent cursors making up 100% of your CpS during midgame. (There comes a point where they just become x20 cursor Cps, which is absurd).
+
+Due to the massive number of new upgrades / achievements, your save file size may also explode. Sorry!
+
+Bugs may exist, make a backup of your save before loading.
 
 ## How to add to your own content mods
 
