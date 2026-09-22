@@ -23,12 +23,12 @@ MNT is intended to act as a free-to-use mod that can be coupled with anyone's ow
 
 Put this block of code after your mod has loaded all the new achievements and upgrades it adds. MNT will automatically calculate which total upgrades / total heavenly upgrades achievements are impossible to obtain and make them shadow if they aren't.
 
-MNT also does all the saving / loading of its upgrades / achievements itself, so no need to worry about that.
-
 > // Load Moonwork's New Tiers      
 > if (!Game.mods['MoonworksNewTiers']) {    
 >   Game.LoadMod('https://moonworks64.github.io/MoonworksNewTiers/MoonworksNewTiers.js');   
 > } else Game.mods['MoonworksNewTiers'].updateAchievShadow();   
+
+MNT also does all the saving / loading of its upgrades / achievements itself, so no need to worry about that.
 
 By default, MNT caps the number of cursors achievements to 1500, and the total buildings achievements to 25,000. Anything beyond these requirements are shadows. If you want to extend these achievement lineages, you can do so with the updateAchievShadow() function.
 
