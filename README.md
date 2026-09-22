@@ -30,7 +30,7 @@ Put this block of code after your mod has loaded all the new achievements and up
 
 MNT also does all the saving / loading of its upgrades / achievements itself, so no need to worry about that.
 
-By default, MNT caps the number of cursors achievements to 1500, and the total buildings achievements to 25,000. Anything beyond these requirements are shadows. If you want to extend these achievement lineages, you can do so with the updateAchievShadow() function.
+By default, MNT caps the number of cursors achievements to a requirement of 1,500 cursors, and the total buildings achievements to a requirement of 25,000 total buildings. Anything beyond these requirements are shadows. If you want to extend these achievement lineages, you can do so with the updateAchievShadow() function.
 
 Example:
 > Game.mods['MoonworksNewTiers'].updateAchievShadow({maxCursorAchiev: 2800, maxTotalBuildingsAchiev: 60000});   
