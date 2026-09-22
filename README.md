@@ -2,7 +2,7 @@
 
 *Current version: 1*    
 
-This is a mod for [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/) which adds a bunch of new upgrade and achievement tiers to a frankly ridiculous extend.
+This is a mod for [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/) which adds a bunch of new upgrade and achievement tiers to a frankly ridiculous extent.
 
 Intended to be either loaded standalone or used for any content mods someone may make.
 
@@ -82,11 +82,14 @@ Currently it adds:
 
 ## Limitations
 
-MNT may cause break with certain other mods active. Particularly with ones that use function wrapping.
+MNT may break with certain other mods active. Particularly with ones that use function wrapping, although any that inject code using some cursor upgrade lines may also break as MNT rewrites those lines to nerf the cursor upgrades.
 
 The game can have lag spikes when looking in the stats menu as the number of upgrades / achievements takes a while to re-render.
 
-Any sprite that required a completely new sprite just uses a template as I don't have the time or pixel art skill to make them in a reasonable manner.
+I like writing and many upgrades have paragraphs of text within them. I do not apologize.
+I like writing but I may not be good at it either, expect some typos, improper grammar, run-on sentences, and confusing concepts to understand. I do apologize for this.
+
+Any sprite that required a completely new sprite just uses a template as I don't have the time nor pixel art skill to make them in a reasonable manner.
 Milk icons / textures all use the plain icon assets for the same reason.
 
 If you have any issues, concerns or questions, please do ask me! I'm in the Cookie Clicker discord server which can be found in the Cookie Clicker top ribbon.
