@@ -67,11 +67,13 @@ Currently it adds:
         - Cursors have also been given 4 extra achievements to match up with the vanilla tiers.
 - **8 new production achievements for all buildings**
 - **1 new level achievement for all buildings**
+- **26 new milks**
+    - All use the default milk assets as I do not have the time or pixel art skill to create unique assets for all of them. I apologize for this and recommend you use the milk selector to pick out you favourite vanilla CC milk if this is a concern.
 - **36 new bank and Cps achievements**
     - Some may be impossible or ludicrous to obtain. Sorry!
     - They also all use template icons.
-- **26 new milks**
-    - All use the default milk assets as I do not have the time or pixel art skill to create unique assets for all of them. I apologize for this and recommend you use the milk selector to pick out you favourite vanilla CC milk if this is a concern.
+- **14 new kitten and mouse upgrades**
+- **14 new cookies made from clicking achievements**
 - **20 new total buildings achievements**
     - By default, achievements past 25,000 total buildings are shadow achievements.
 - **18 new total upgrades achievements**
