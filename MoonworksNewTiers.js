@@ -1064,11 +1064,11 @@ mod = {
 		    if (quote) {if (countWords(quote[0]) > upgradeLongestCount) {upgradeLongest = upgrade.name; upgradeLongestCount = countWords(quote[0]);} upgradeWordCount += countWords(quote[0])};
         };
 
-        console.log('Upgrade total: '+ mod.modUpgradeList.length);
+        /*console.log('Upgrade total: '+ mod.modUpgradeList.length);
         console.log('Total upgrade word count: ' + upgradeWordCount);
         console.log('Average upgrade word count: ' + (upgradeWordCount/mod.modUpgradeList.length));
         console.log('Longest upgrade description word count: ' + upgradeLongestCount);
-        console.log(upgradeLongest);
+        console.log(upgradeLongest);*/
 
         // New milk
         mod.addMilk('Almond milk',25);
@@ -1996,16 +1996,16 @@ mod = {
 		    if (quote) {if (countWords(quote[0]) > achievLongestCount) {achievLongest = achiev.name; achievLongestCount = countWords(quote[0]);} achievWordCount += countWords(quote[0])};
         };
 
-        console.log('Achievement total: '+ mod.modAchievementList.length);
+        /*console.log('Achievement total: '+ mod.modAchievementList.length);
         console.log('Total achievement word count: ' + achievWordCount);
         console.log('Average achievement word count: ' + (achievWordCount/mod.modAchievementList.length));
         console.log('Longest achievement description word count: ' + achievLongestCount);
-        console.log(achievLongest);
+        console.log(achievLongest);*/
 
         var wordCount = achievWordCount + upgradeWordCount;
 
-        console.log('Total word count: ' + wordCount);
-        console.log('Total new achievements and upgrades: ' + (mod.modUpgradeList.length + mod.modAchievementList.length));
+        //console.log('Total word count: ' + wordCount);
+        //console.log('Total new achievements and upgrades: ' + (mod.modUpgradeList.length + mod.modAchievementList.length));
 
         // Move all lvl 10 achievs + 3 order
         for (var i in Game.Objects) {

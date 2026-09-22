@@ -25,15 +25,16 @@ Put this block of code after your mod has loaded all the new achievements and up
 
 MNT also does all the saving / loading of its upgrades / achievements itself, so no need to worry about that.
 
-> // Load Moonwork's New Tiers
-> if (!Game.mods['MoonworksNewTiers']) {
->   Game.LoadMod('MoonworksNewTiers/MoonworksNewTiers.js');
-> } else Game.mods['MoonworksNewTiers'].updateAchievShadow();
+> // Load Moonwork's New Tiers      
+> if (!Game.mods['MoonworksNewTiers']) {    
+>   Game.LoadMod('https://moonworks64.github.io/MoonworksNewTiers/MoonworksNewTiers.js');   
+> } else Game.mods['MoonworksNewTiers'].updateAchievShadow();   
 
 By default, MNT caps the number of cursors achievements to 1500, and the total buildings achievements to 25,000. Anything beyond these requirements are shadows. If you want to extend these achievement lineages, you can do so with the updateAchievShadow() function.
 
 Example:
-> Game.mods['MoonworksNewTiers'].updateAchievShadow({maxCursorAchiev: 2800, maxTotalBuildingsAchiev: 60000});
+> Game.mods['MoonworksNewTiers'].updateAchievShadow({maxCursorAchiev: 2800, maxTotalBuildingsAchiev: 60000});   
+
 This will make all of the number of cursors achievements with a requirement of up to and including 2,800 cursors non-shadow, and make all total buildings achievements with a requirement of up to and including 60,000 total buildings non-shadow.
 
 ## How to load standalone
@@ -83,6 +84,12 @@ Currently it adds:
 - **21 new ascended with cookies baked achievements**
     - Some may be impossible or ludicrous to obtain. Sorry!
     - They also all use template icons.
+
+There's 336 new upgrades (normal and heavenly), with a total word count of 17625!
+There's 627 new achievements (normal and shadow), with a total word count of 672!
+Yes they were all hand-written, it was very tiring. But fun!
+
+Hope you enjoy :D
 
 ## Limitations
 
